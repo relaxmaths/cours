@@ -1,1 +1,962 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap');
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+        opacity: 0;
+        border-radius: 24px;
+        background-color: gray;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+        border-radius: 24px;
+    }
+}
+
+
+.lia-table__header {
+    padding: 4px !important;
+    min-width: 0 !important;
+}
+
+.lia-table__header figure {
+    vertical-align: middle !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.lia-support-menu {
+    display: none;
+    visibility: hidden;
+}
+
+
+/* Conteneur du logo : centrage horizontal et vertical */
+.lia-header__middle {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 56px !important; /* adapte selon la hauteur de ta barre */
+  position: relative !important;
+}
+
+/* Masquer l'image existante (optionnel si tu veux remplacer) */
+.lia_header__logo {
+  opacity: 0 !important;
+  width: 48px !important;
+  height: 48px !important;
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  pointer-events: none !important;
+}
+
+/* Ajouter ton logo en fond du conteneur */
+.lia-header__middle::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 48px;
+  height: 48px;
+  background: url("https://naturavie.be/assets/images/favicon_images/icon-144x144.png") no-repeat center/contain;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 10;
+}
+
+
+
+/* Apply the animation to the main element */
+main {
+    animation: zoomIn 0.50s ease-in-out;
+}
+
+    dr, dv, db {
+        color: white;
+    }
+    dr, dv, db, dj {
+        font-weight: bold;
+        border-radius: 4px;
+        padding-right:2px;
+        padding-left:2px;
+    }
+    dr {
+        background-color: red;
+    }
+    dv {
+        background-color: green;
+    }
+    db {
+        background-color: blue;
+    }
+    dj {
+        background-color: yellow;
+    }
+    .calcul {
+        font-weight: bold;
+        font-family: arial;
+        background-color: transparent;
+);
+
+
+        border-radius: 6px;
+        padding: 10px;
+    }
+    .calcul.lia-quiz, calcul.lia-quiz {
+        background-color: transparent !important;
+        background: none;
+    }
+    .centrer {
+        text-align: center;
+    }
+    .lia-input {
+        background-color: white;
+        min-width: 4em !important;
+        height: 28px !important;
+    }
+    /*.katex { font-size: 1.5em; }*/
+
+    .qr_150 svg {
+        width: 150px;
+    }
+
+
+/* Police Montserrat partout en majuscules */
+html, body, .lia-main, .lia-title, .lia-section, .lia-toc, .lia-nav, .lia-toolbar, .lia-btn, .lia-quiz, .lia-accordion, .lia-accordion-dummy, h1, h2, h3 {
+  font-family: 'Montserrat', Arial, sans-serif !important;
+  font-weight: 600 !important;
+  /*text-transform: uppercase !important;*/
+  letter-spacing: 0.04em !important;
+  color: #2a3a5a !important;
+}
+
+/* Fond façon cahier */
+.lia-main {
+  background: repeating-linear-gradient(
+    to bottom,
+    #fff 0px,
+    #fff 34px,
+    #e3e8f0 34px,
+    #e3e8f0 36px
+  ) !important;
+}
+
+
+/* Titres façon étiquette de cahier */
+.lia-title, .lia-section h1 {
+  background: #f8df72 !important;
+  color: #2a3a5a !important;
+  border-radius: 12px !important;
+  padding: 18px 36px !important;
+  margin: 28px auto 18px auto !important;
+  font-weight: 900 !important;
+  font-size: 2.2em !important;
+  box-shadow: 0 4px 16px #f8df7280 !important;
+  text-align: center !important;
+}
+
+/* Sous-titres */
+.lia-section h2, .lia-section h3 {
+  color: #f28482 !important;
+  background: #fffbe6 !important;
+  border-left: 6px solid #f8df72 !important;
+  padding: 10px 20px !important;
+  margin: 18px 0 10px 0 !important;
+  font-weight: 700 !important;
+}
+
+/* Modernisation du menu latéral gauche */
+.lia-toc {
+  background: #fffbe6 !important;
+  border-radius: 16px !important;
+  box-shadow: 0 2px 12px #e3e8f0cc !important;
+  padding: 18px 12px !important;
+  margin: 20px 0 20px 8px !important;
+}
+.lia-toc a {
+  color: #2a3a5a !important;
+  background: none !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  padding: 8px 16px !important;
+  display: block !important;
+  margin-bottom: 4px !important;
+  transition: background 0.2s, color 0.2s;
+}
+.lia-toc a:hover,
+.lia-toc a:focus,
+.lia-toc .lia-active {
+  background: #f8df72 !important;
+  color: #2a3a5a !important;
+  font-weight: 900 !important;
+}
+
+/* SURCHARGE SPÉCIFIQUE pour forcer le texte foncé dans le menu latéral */
+html:not([class*=lia-theme-default]) .lia-toc__content a,
+html:not([class*=lia-theme-default]) .lia-toc__content a *,
+html:not([class*=lia-theme-default]) .lia-toc__content .lia-active,
+html:not([class*=lia-theme-default]) .lia-toc__content .lia-active * {
+    color: #2a3a5a !important;
+    border-color: #2a3a5a !important;
+}
+
+/* Boutons modernes */
+.lia-btn, .lia-toolbar {
+  background: #f8df72 !important;
+  color: #2a3a5a !important;
+  border-radius: 10px !important;
+  font-weight: 700 !important;
+  box-shadow: 0 2px 8px #f8df7240 !important;
+  border: none !important;
+  padding: 10px 24px !important;
+  margin: 4px !important;
+  transition: background 0.2s, color 0.2s;
+}
+.lia-btn:hover, .lia-toolbar:hover {
+  background: #f28482 !important;
+  color: #fff !important;
+}
+
+/* NAVIGATION DU BAS : fond supprimé, même sur pseudo-éléments */
+.lia-nav,
+.lia-nav *,
+.lia-nav::before,
+.lia-nav::after {
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+/* Seuls les boutons de navigation ont un fond */
+.lia-nav button,
+.lia-nav .lia-btn {
+  background: #f8df72 !important;
+  color: #2a3a5a !important;
+  border-radius: 10px !important;
+  font-weight: 700 !important;
+  box-shadow: 0 2px 8px #f8df7240 !important;
+  border: none !important;
+  padding: 10px 24px !important;
+  margin: 4px !important;
+  transition: background 0.2s, color 0.2s;
+}
+.lia-nav button:hover,
+.lia-nav .lia-btn:hover {
+  background: #f28482 !important;
+  color: #fff !important;
+}
+
+/* Blocs de code et citations restent lisibles */
+.lia-code, .lia-main blockquote {
+  text-transform: none !important;
+  font-family: 'Fira Mono', monospace !important;
+}
+
+/* Blocs de code façon feuille perforée */
+.lia-code {
+  background: #f5f7fa !important;
+  border-left: 5px dotted #f8df72 !important;
+  color: #2a3a5a !important;
+  border-radius: 8px !important;
+  padding: 12px 24px !important;
+  font-size: 1em !important;
+  margin: 16px 0 !important;
+}
+
+/* Citations façon post-it */
+.lia-main blockquote {
+  background: #f9fbe7 !important;
+  border-left: 8px solid #f28482 !important;
+  color: #2a3a5a !important;
+  padding: 12px 24px !important;
+  margin: 20px 0 !important;
+  border-radius: 8px !important;
+  font-style: italic !important;
+}
+
+/* Listes avec puces stylisées */
+.lia-main ul li::marker, .lia-main ol li::marker {
+  color: #f28482 !important;
+}
+
+
+/* Suppression de l'encadré de focus autour du menu latéral */
+.lia-toc {
+  background: #fffbe6 !important;
+  border-radius: 16px !important;
+  box-shadow: 0 8px 32px 0 rgba(40, 40, 80, 0.22), 0 2px 8px 0 rgba(40, 40, 80, 0.10) !important;
+  padding: 18px 12px !important;
+  margin: 20px 0 20px 8px !important;
+}
+.lia-toc:focus,
+.lia-toc *:focus,
+.lia-toc__content:focus,
+.lia-toc__content *:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Scrollbar moderne pour Chrome, Edge, Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: #e3e8f0;
+  border-radius: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #f8df72;
+  border-radius: 8px;
+  border: 2px solid #e3e8f0;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: #f28482;
+}
+
+/* Scrollbar moderne pour Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #f8df72 #e3e8f0;
+}
+
+
+
+
+.lia-toc__search {
+  position: relative !important;
+  margin-bottom: 16px !important;
+  height: 48px !important;
+  display: flex !important;
+  align-items: center !important;
+  background: none !important;
+  border: none !important;
+}
+
+/* Loupe SVG à gauche */
+.lia-toc__search::before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  z-index: 3;
+  pointer-events: none;
+  background: url('data:image/svg+xml;utf8,<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15" r="10" stroke="%233a86ff" stroke-width="1.6" fill="none"/><rect x="23" y="23" width="8" height="3.5" rx="1.75" transform="rotate(45 23 23)" fill="%23f28482" stroke="%23f28482" stroke-width="1"/></svg>') no-repeat center/contain;
+}
+
+/* Champ de recherche moderne */
+.lia-toc__search input[type="search"],
+.lia-toc__search input[type="text"] {
+  width: 100% !important;
+  height: 44px !important;
+  padding: 0 14px 0 54px !important;
+  border-radius: 8px !important;
+  border: 2px solid #f8df72 !important;
+  background: #fff !important;
+  color: #2a3a5a !important;
+  font-size: 1.08em !important;
+  font-family: 'Montserrat', Arial, sans-serif !important;
+  font-weight: 500 !important;
+  box-shadow: none !important;
+  outline: none !important;
+  transition: border-color 0.13s, font-weight 0.13s;
+  box-sizing: border-box !important;
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+/* Focus : bordure colorée et texte plus gras */
+.lia-toc__search input[type="search"]:focus,
+.lia-toc__search input[type="text"]:focus {
+  border-color: #f28482 !important;
+  font-weight: 700 !important;
+  outline: none !important;
+}
+
+/* Placeholder discret */
+.lia-toc__search input[type="search"]::placeholder,
+.lia-toc__search input[type="text"]::placeholder {
+  color: #b0b3b8 !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.02em !important;
+}
+
+
+html .lia-toc__content {
+    text-transform: uppercase !important;
+}
+
+
+/* Niveau 1 : padding gauche augmenté */
+html .lia-toc__content .lia-toc__link--is-lvl-1 {
+  font-size: 1.16em !important;
+  font-weight: 700 !important;
+  color: #3a86ff !important;
+  padding-left: 20px !important;
+  background: none !important;
+  text-decoration: none !important;
+  display: block !important;
+  border-left: none !important;
+  border-left-width: 0 !important;
+  border-left-style: none !important;
+  border-style: none !important;
+  box-shadow: none !important;
+  transition: background 0.15s, color 0.15s;
+}
+
+/* Niveau 2 */
+html .lia-toc__content .lia-toc__link--is-lvl-2 {
+  font-size: 1.04em !important;
+  font-weight: 600 !important;
+  color: #f28482 !important;
+  padding-left: 32px !important;
+  background: none !important;
+  text-decoration: none !important;
+  display: block !important;
+  border-left: none !important;
+  border-left-width: 0 !important;
+  border-left-style: none !important;
+  border-style: none !important;
+  box-shadow: none !important;
+  transition: background 0.15s, color 0.15s;
+}
+
+/* Niveau 3 */
+html .lia-toc__content .lia-toc__link--is-lvl-3 {
+  font-size: 0.96em !important;
+  font-weight: 500 !important;
+  color: #495057 !important;
+  padding-left: 48px !important;
+  background: none !important;
+  text-decoration: none !important;
+  display: block !important;
+  border-left: none !important;
+  border-left-width: 0 !important;
+  border-left-style: none !important;
+  border-style: none !important;
+  box-shadow: none !important;
+  transition: background 0.15s, color 0.15s;
+}
+
+/* Niveau 4+ */
+html .lia-toc__content .lia-toc__link--is-lvl-4,
+html .lia-toc__content .lia-toc__link--is-lvl-5,
+html .lia-toc__content .lia-toc__link--is-lvl-6 {
+  font-size: 0.92em !important;
+  font-weight: 400 !important;
+  color: #868e96 !important;
+  padding-left: 64px !important;
+  background: none !important;
+  text-decoration: none !important;
+  display: block !important;
+  border-left: none !important;
+  border-left-width: 0 !important;
+  border-left-style: none !important;
+  border-style: none !important;
+  box-shadow: none !important;
+  transition: background 0.15s, color 0.15s;
+}
+
+/* Hover : fond différent par niveau, bon contraste */
+html .lia-toc__content .lia-toc__link--is-lvl-1:hover,
+html .lia-toc__content .lia-toc__link--is-lvl-1:focus {
+  background: #e3f0ff !important;
+  color: #1a295a !important;
+}
+html .lia-toc__content .lia-toc__link--is-lvl-2:hover,
+html .lia-toc__content .lia-toc__link--is-lvl-2:focus {
+  background: #ffeaea !important;
+  color: #c13d3b !important;
+}
+html .lia-toc__content .lia-toc__link--is-lvl-3:hover,
+html .lia-toc__content .lia-toc__link--is-lvl-3:focus {
+  background: #f3f6fb !important;
+  color: #3a86ff !important;
+}
+html .lia-toc__content .lia-toc__link--is-lvl-4:hover,
+html .lia-toc__content .lia-toc__link--is-lvl-5:hover,
+html .lia-toc__content .lia-toc__link--is-lvl-6:hover,
+html .lia-toc__content .lia-toc__link--is-lvl-4:focus,
+html .lia-toc__content .lia-toc__link--is-lvl-5:focus,
+html .lia-toc__content .lia-toc__link--is-lvl-6:focus {
+  background: #f1f3f5 !important;
+  color: #495057 !important;
+}
+
+/* Élément sélectionné : gradient moderne, dans la même gamme que le hover, aucune bordure gauche */
+html .lia-toc__content .lia-toc__link--is-lvl-1.lia-active,
+html .lia-toc__content .lia-toc__link--is-lvl-1.lia-toc__link--active {
+  background: linear-gradient(100deg, #e3f0ff 60%, #b6d0fa 100%) !important; /* deux bleus */
+  color: #1a295a !important;
+  font-weight: 800 !important;
+  border-left: none !important;
+  border-left-width: 0 !important;
+  border-left-style: none !important;
+  border-style: none !important;
+  box-shadow: none !important;
+}
+html .lia-toc__content .lia-toc__link--is-lvl-2.lia-active,
+html .lia-toc__content .lia-toc__link--is-lvl-2.lia-toc__link--active {
+  background: linear-gradient(100deg, #ffeaea 60%, #ffd6d6 100%) !important; /* deux roses */
+  color: #a14a76 !important;
+  font-weight: 800 !important;
+  border-left: none !important;
+  border-left-width: 0 !important;
+  border-left-style: none !important;
+  border-style: none !important;
+  box-shadow: none !important;
+}
+html .lia-toc__content .lia-toc__link--is-lvl-3.lia-active,
+html .lia-toc__content .lia-toc__link--is-lvl-3.lia-toc__link--active {
+  background: linear-gradient(100deg, #f3f6fb 60%, #dde6f4 100%) !important; /* deux gris-bleus */
+  color: #3a86ff !important;
+  font-weight: 800 !important;
+  border-left: none !important;
+  border-left-width: 0 !important;
+  border-left-style: none !important;
+  border-style: none !important;
+  box-shadow: none !important;
+}
+html .lia-toc__content .lia-toc__link--is-lvl-4.lia-active,
+html .lia-toc__content .lia-toc__link--is-lvl-5.lia-active,
+html .lia-toc__content .lia-toc__link--is-lvl-6.lia-active,
+html .lia-toc__content .lia-toc__link--is-lvl-4.lia-toc__link--active,
+html .lia-toc__content .lia-toc__link--is-lvl-5.lia-toc__link--active,
+html .lia-toc__content .lia-toc__link--is-lvl-6.lia-toc__link--active {
+  background: linear-gradient(100deg, #f1f3f5 60%, #e2e6ea 100%) !important; /* deux gris */
+  color: #495057 !important;
+  font-weight: 800 !important;
+  border-left: none !important;
+  border-left-width: 0 !important;
+  border-left-style: none !important;
+  border-style: none !important;
+  box-shadow: none !important;
+}
+
+/* Texte interne : hérite couleur, taille, supprime soulignement */
+html .lia-toc__content .lia-toc__link--is-lvl-1 span,
+html .lia-toc__content .lia-toc__link--is-lvl-2 span,
+html .lia-toc__content .lia-toc__link--is-lvl-3 span,
+html .lia-toc__content .lia-toc__link--is-lvl-4 span,
+html .lia-toc__content .lia-toc__link--is-lvl-5 span,
+html .lia-toc__content .lia-toc__link--is-lvl-6 span {
+  color: inherit !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  text-decoration: none !important;
+}
+
+/* Aucun soulignement ni effet parasite */
+html .lia-toc__content .lia-toc__link,
+html .lia-toc__content .lia-toc__link span {
+  text-decoration: none !important;
+}
+
+
+.lia-toc__link:active {
+  animation: tocClickFlash 0.5s cubic-bezier(.5,1.7,.5,1);
+}
+
+@keyframes tocClickFlash {
+  0% {
+    box-shadow: 0 0 0 0 #fff0, 0 0 0 0 #3a86ff33;
+  }
+  30% {
+    box-shadow: 0 0 0 32px #f8df72cc, 0 0 32px 16px #3a86ff77;
+  }
+  60% {
+    box-shadow: 0 0 0 18px #f28482cc, 0 0 24px 8px #3a86ff44;
+  }
+  100% {
+    box-shadow: 0 8px 32px -8px #3a86ff33, 0 1.5px 8px 0 #f2848233;
+  }
+}
+
+
+
+
+
+/* Toujours réserver la place de la scrollbar (fine), mais la rendre invisible hors hover */
+html .lia-toc__content {
+  overflow-y: scroll !important;      /* Toujours scrollable, scrollbar présente */
+  scrollbar-width: thin;              /* Firefox : fine */
+  scrollbar-color: transparent transparent; /* Firefox : invisible par défaut */
+}
+
+/* Chrome, Safari, Opera : scrollbar fine et transparente par défaut */
+html .lia-toc__content::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+html .lia-toc__content::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+html .lia-toc {
+    padding-right: 0 !important;
+}
+
+/* Au hover/focus/active : scrollbar colorée */
+html .lia-toc__content:hover,
+html .lia-toc__content:focus,
+html .lia-toc__content:active {
+  scrollbar-color: #b6d0fa #e3f0ff;  /* Firefox : pouce bleu clair, rail bleu pâle */
+}
+html .lia-toc__content:hover::-webkit-scrollbar-thumb,
+html .lia-toc__content:focus::-webkit-scrollbar-thumb,
+html .lia-toc__content:active::-webkit-scrollbar-thumb {
+  background: #b6d0fa;
+  border-radius: 5px;
+}
+html .lia-toc__content:hover::-webkit-scrollbar,
+html .lia-toc__content:focus::-webkit-scrollbar,
+html .lia-toc__content:active::-webkit-scrollbar {
+  background: #e3f0ff;
+}
+
+html .lia-toc__content {
+  padding-bottom: 32px !important;  /* Ajuste la valeur selon ton design */
+  padding-right: 10px !important;
+}
+
+
+
+.lia-pagination {
+     border-top-left-radius: 150px;  /* arrondi coin supérieur gauche */
+  border-top-right-radius: 150px; /* arrondi coin supérieur droit */
+  width: 100vw;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  background-image:none !important;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+/* Ombres portées top subtiles et élégantes */
+  box-shadow:
+    0 -6px 12px rgba(58, 134, 255, 0.15),
+    0 -12px 24px rgba(58, 134, 255, 0.10);
+}
+
+
+@keyframes popNumber {
+  0% {
+    transform: scale(0.7) rotate(-8deg);
+    opacity: 0.5;
+    filter: brightness(1.3);
+  }
+  50% {
+    transform: scale(1.25) rotate(4deg);
+    opacity: 1;
+    filter: brightness(1.1);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+    filter: brightness(1);
+  }
+}
+
+.lia-pagination__current {
+  /* Ton style custom existant */
+  font-size: 1.15em;
+  font-weight: 700;
+  color: #2562a6;
+  background: #fffbe6;
+  border-radius: 12px;
+  padding: 10px 22px;
+  box-shadow: 0 1px 8px -1px #b6d0fa33, 0 0 0 3px #f8df7277;
+  border: 2.5px solid #b6d0fa;
+  transition: background 0.15s, color 0.15s;
+  z-index: 2;
+  margin: 0 6px;
+  text-shadow: 0 1px 2px #fff, 0 0 6px #b6d0fa44;
+  /* Animation effet "pop" à chaque apparition */
+  animation: popNumber 0.36s cubic-bezier(.42,1.8,.6,.98);
+}
+
+
+
+.lia-pagination__content {
+  display: flex;
+  flex-direction: row-reverse; /* Inverse l'ordre pour Précédent | Numéro | Suivant */
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 18px;
+  padding: 12px 0;
+  box-sizing: border-box;
+  background: none;
+}
+
+.lia-pagination__content .lia-btn {
+  min-width: 48px;
+  min-height: 48px;
+  border-radius: 50%;
+  font-size: 1.4em;
+  background: linear-gradient(145deg, #fff 60%, #e3f0ff 100%);
+  color: #3a86ff;
+  border: 2.5px solid #b6d0fa;
+  box-shadow: 0 2px 12px -2px #b6d0fa33;
+  transition:
+    transform 0.22s cubic-bezier(.5,1.7,.5,1),
+    box-shadow 0.22s cubic-bezier(.5,1.7,.5,1),
+    background 0.18s,
+    color 0.18s,
+    border-color 0.18s;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  overflow: visible;
+}
+
+.lia-pagination__content .lia-btn:hover,
+.lia-pagination__content .lia-btn:focus {
+  background: linear-gradient(145deg, #f8df72 60%, #ffeabf 100%);
+  color: #1a295a;
+  border-color: #f28482;
+  transform: scale(1.18) rotate(-3deg);
+  box-shadow: 0 8px 36px -4px #f28482aa, 0 2px 12px -2px #3a86ff55;
+  animation: btnWhoow 0.38s cubic-bezier(.5,1.7,.5,1);
+}
+
+
+#lia-btn-toc {
+    border-top-left-radius: 3px !important;
+    border-bottom-left-radius: 3px !important;
+    padding-left: 16px !important;
+    padding-right: 27px !important;
+  box-shadow:
+    2px -2px 6px rgba(58, 134, 255, 0.15) !important;
+}
+
+
+
+/* Exemple pour une classe .icon */
+.icon, 
+button .icon, 
+.lia-btn .icon, 
+.lia_header__logo, 
+.lia-toolbar__icon {
+  font-family: 'icon', 'FontAwesome', 'Material Icons', sans-serif !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  speak: never;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  letter-spacing: normal;
+  direction: ltr;
+  /* Ajoute d'autres propriétés si besoin */
+}
+
+
+
+.lia-iframe-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #fff;
+  /* Shadow très visible, profond et coloré */
+  box-shadow:
+    0 12px 40px -8px #2562a6cc,
+    0 0 0 6px #f8df72cc,
+    0 2px 16px 0 #2562a644;
+  display: block;
+}
+
+/* Ratio 16:9 par pseudo-élément */
+.lia-iframe-wrapper::after {
+  content: "";
+  display: block;
+  padding-top: 56.25%;
+}
+
+.lia-iframe-wrapper iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  border: none;
+  border-radius: 18px;
+  background: #000;
+  /* Shadow interne accentué sur la vidéo elle-même */
+  box-shadow:
+    0 8px 32px -8px #2562a6cc,
+    0 0 0 4px #f8df72aa;
+  display: block;
+}
+
+.lia-figure__caption{
+    margin-top: 28px;
+}
+
+
+.lia-progress {
+  height: 8px;
+  border-radius: 8px;
+  background: linear-gradient(
+    90deg,
+    #3a86ff 0%,
+    #f8df72 40%,
+    #f28482 100%
+  );
+  box-shadow: 0 2px 12px -2px #3a86ff33;
+  transition: width 0.4s cubic-bezier(.5,1.7,.5,1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 110;
+}
+
+.lia-progress {
+  animation: progressPopIn 0.5s cubic-bezier(.5,1.7,.5,1);
+}
+
+.vertical_fit_125 figure, 
+.vertical_fit_125 figure img {
+  max-height: 125px !important;
+  max-width: 125px !important;  
+  text-align: center !important;
+}
+
+.lia-slide__container  {
+    background-color: #fafbf6;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ddbfbf' fill-opacity='0.23' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+    background-size: 4px;
+}
+
+
+.exercice-box {
+    margin-top: 40px;
+    border: 16px solid white;
+    background-color: #fafbf6;
+    padding: 30px; 
+    border-radius: 30px;
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.04),
+              inset -4px -4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.lia-divider{
+
+}
+
+.lia-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px dotted #cfc7be; /* bordure extérieure complète */
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+/* Bordures intérieures uniquement à droite et en bas pour éviter double bordure */
+.lia-table th,
+.lia-table td {
+  border-right: 2px dotted #cfc7be !important;
+  border-bottom: 2px dotted #cfc7be !important;
+  padding: 8px 12px; /* adapte selon besoin */
+}
+
+/* Supprimer la bordure droite sur la dernière cellule de chaque ligne */
+.lia-table tr th:last-child,
+.lia-table tr td:last-child {
+  border-right: none !important;
+}
+
+/* Supprimer la bordure inférieure sur la dernière ligne */
+.lia-table tr:last-child th,
+.lia-table tr:last-child td {
+  border-bottom: none !important;
+}
+
+/* Coins supérieurs arrondis sur la première ligne */
+.lia-table tr:first-child th:first-child,
+.lia-table tr:first-child td:first-child {
+  border-top-left-radius: 16px;
+}
+.lia-table tr:first-child th:last-child,
+.lia-table tr:first-child td:last-child {
+  border-top-right-radius: 16px;
+}
+
+/* Coins inférieurs arrondis sur la dernière ligne */
+.lia-table tr:last-child th:first-child,
+.lia-table tr:last-child td:first-child {
+  border-bottom-left-radius: 16px;
+}
+.lia-table tr:last-child th:last-child,
+.lia-table tr:last-child td:last-child {
+  border-bottom-right-radius: 16px;
+}
+
+.lia-table tbody tr:hover {
+  background-color: white !important;
+  cursor: default; /* optionnel : enlever le curseur pointer */
+}
+
+
+.lia-table tr:hover,
+.lia-table td:hover,
+.lia-table th:hover,
+.lia-table tr:hover > td,
+.lia-table tr:hover > th {
+  background: none !important;
+  background-color: white !important;
+  color: inherit !important;
+  box-shadow: none !important;
+}
+
+
+h1, h2, h3 {
+  font-size: clamp(2.5rem, 7vw, 4rem) !important;   /* Taille fluide et très grande */
+  font-weight: 900 !important;
+  text-transform: uppercase;
+  letter-spacing: -1px !important;
+  color: #1a1a1a !important;
+  background: linear-gradient(90deg, #ffe066 -15%, #ff6f61 80%) !important;
+  background-clip: text !important;
+  -webkit-background-clip: text;
+  color: transparent !important;
+  margin: 0 0 0.5em 0 !important;
+  line-height: 1.05;
+  position: relative;
+  z-index: 1;
+}
+
+h1:after, h2:after, h3::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 6px;
+  border-radius: 3px;
+  background: linear-gradient(90deg, #ff6f61 0%, #ffe066 100%);
+  margin-top: 0.4em;
+}
+
+
+
+@keyframes progressPopIn {
+  0% { height: 0; opacity: 0; }
+  60% { height: 18px; opacity: 1; }
+  100% { height: 14px; opacity: 1; }
+}
+
+@keyframes btnWhoow {
+  0%   { transform: scale(1) rotate(0);}
+  60%  { transform: scale(1.25) rotate(-6deg);}
+  80%  { transform: scale(1.12) rotate(-3deg);}
+  100% { transform: scale(1.18) rotate
+
