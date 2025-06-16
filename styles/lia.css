@@ -839,17 +839,6 @@ button .icon,
     background-size: 4px;
 }
 
-
-.exercice-box {
-    margin-top: 40px;
-    border: 16px solid white;
-    background-color: #fafbf6;
-    padding: 30px; 
-    border-radius: 30px;
-    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.04),
-              inset -4px -4px 8px rgba(0, 0, 0, 0.06);
-}
-
 .lia-divider{
 
 }
@@ -946,7 +935,48 @@ h1:after, h2:after, h3::after {
   margin-top: 0.4em;
 }
 
+exercice {
+    display: block;
+    margin-top: 40px;
+    border: 16px solid white;
+    background-color: #fafbf6;
+    padding: 30px; 
+    border-radius: 30px;
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.04),
+              inset -4px -4px 8px rgba(0, 0, 0, 0.06);
+}
 
+.lia-effect--inline label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    display: block;
+    padding-left: 5em;
+    box-sizing: border-box;
+}
+.lia-effect--inline label > button {
+    position: absolute;
+    left: 0;
+    top: calc(50% - 1.4em);
+    margin: 0;
+    z-index: 1;
+}
+
+columns {
+  display: flex;
+  gap: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+columns > column, columns > button_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button_column {
+    width: 70px;
+}
 
 @keyframes progressPopIn {
   0% { height: 0; opacity: 0; }
