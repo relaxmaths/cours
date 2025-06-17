@@ -169,6 +169,9 @@ html, body, .lia-main, .lia-title, .lia-section, .lia-toc, .lia-nav, .lia-toolba
   margin: 18px 0 10px 0 !important;
   font-weight: 700 !important;
 }
+.lia-section h4 {
+    font-size: 1.8em !important;    
+}
 
 /* Modernisation du menu latéral gauche */
 .lia-toc {
