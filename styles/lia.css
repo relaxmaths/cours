@@ -127,7 +127,7 @@ main {
 
 
 /* Police Montserrat partout en majuscules */
-html, body, .lia-main, .lia-title, .lia-section, .lia-toc, .lia-nav, .lia-toolbar, .lia-btn, .lia-quiz, .lia-accordion, .lia-accordion-dummy, h1, h2, h3 {
+html, body, .lia-main, .lia-title, .lia-section, .lia-toc, .lia-nav, .lia-toolbar, .lia-btn, .lia-quiz, .lia-accordion, .lia-accordion-dummy, h1, h2, h3, h4 {
   font-family: 'Montserrat', Arial, sans-serif !important;
   font-weight: 600 !important;
   /*text-transform: uppercase !important;*/
@@ -161,7 +161,7 @@ html, body, .lia-main, .lia-title, .lia-section, .lia-toc, .lia-nav, .lia-toolba
 }
 
 /* Sous-titres */
-.lia-section h2, .lia-section h3 {
+.lia-section h2, .lia-section h3, .lia-section h4 {
   color: #f28482 !important;
   background: #fffbe6 !important;
   border-left: 6px solid #f8df72 !important;
@@ -909,7 +909,7 @@ button .icon,
 }
 
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-size: clamp(2.5rem, 7vw, 4rem) !important;   /* Taille fluide et très grande */
   font-weight: 900 !important;
   text-transform: uppercase;
