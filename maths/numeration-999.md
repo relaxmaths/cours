@@ -43,6 +43,7 @@ sharing: false
 
 # Numération 999
 
+<div>
 <columns>
 
 <button_column>
@@ -64,6 +65,8 @@ Pour commencer, voici une vidéo te permettant d'apprendre à lire et à écrire
 
 <!-- class="qr_150" -->
 [qr-code](https://youtu.be/AZLmIP48Xho?feature=shared) 
+
+</div>
 
 ## Je comprends la décomposition des nombres jusqu'à 999
 
