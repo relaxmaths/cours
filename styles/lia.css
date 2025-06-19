@@ -1049,6 +1049,10 @@ hr {
     padding: 5px 12px !important;
 }
 
+.lia-toc__bottom {
+    display: none;
+}
+
 @keyframes progressPopIn {
   0% { height: 0; opacity: 0; }
   60% { height: 18px; opacity: 1; }
