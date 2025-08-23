@@ -1,6 +1,6 @@
 <!--
 link: https://fonts.googleapis.com/css?family=Montserrat:700,400|Fira+Mono&display=swap
-    https://cours.relaxmaths.be/styles/lia.css?v2
+    https://cours.relaxmaths.be/styles/lia.css?v3
 
 version:  1.0.0
 

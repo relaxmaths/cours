@@ -1060,5 +1060,5 @@ hr {
   0%   { transform: scale(1) rotate(0);}
   60%  { transform: scale(1.25) rotate(-6deg);}
   80%  { transform: scale(1.12) rotate(-3deg);}
-  100% { transform: scale(1.18) rotate
-
+  100% { transform: scale(1.18) rotate(-3deg);}
+}
