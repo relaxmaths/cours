@@ -1,8 +1,9 @@
+
 <!--
 link: https://fonts.googleapis.com/css?family=Montserrat:700,400|Fira+Mono&display=swap
     https://cours.relaxmaths.be/styles/lia.css?v5
 
-version:  1.0.0
+version:  2.0.0
 
 author:   RelaxMaths
 
