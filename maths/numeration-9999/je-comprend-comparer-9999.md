@@ -1,254 +1,3 @@
-### Classer des nombres du plus grand au plus petit (ordre décroissant)
-
-@rm_lire(`Classe les nombres suivants du plus grand au plus petit.`)
-
-<exercice>
-<!-- class="calcul centrer"  -->
-4510 - 4562 - 4548 - 4501 - 4587 - 4596 - 4563 - 4512
-
-<!-- class="centrer" --> 
-[[4596]] 
-[[4587]] 
-[[4563]] 
-[[4562]] 
-[[4548]] 
-[[4512]] 
-[[4510]] 
-[[4501]] 
-</exercice>
-
-<exercice>
-<!-- class="calcul centrer"  -->
-4880 - 4804 - 4823 - 4851 - 4863 - 4878 - 4890 - 4842
-
-<!-- class="centrer"  -->
-[[4890]] 
-[[4880]] 
-[[4878]] 
-[[4863]] 
-[[4851]] 
-[[4842]] 
-[[4823]] 
-[[4804]] 
-</exercice>
-
-<exercice>
-<!-- class="calcul centrer"  -->
-4159 - 4374 - 4985 - 4280 - 4465 - 4660 - 4702 - 4842
-
-<!-- class="centrer"  -->
-[[4985]] 
-[[4842]] 
-[[4702]]
-[[4660]]
-[[4465]]
-[[4374]]
-[[4280]]
-[[4159]]
-</exercice>
-
-<exercice>
-<!-- class="calcul centrer"  -->
-4208 - 4511 - 4306 - 4044 - 4875 - 4912 - 4427 - 4814
-
-<!-- class="centrer"  -->
-[[4912]] 
-[[4875]] 
-[[4814]]
-[[4511]]
-[[4427]]
-[[4306]]
-[[4208]]
-[[4044]]
-</exercice>
-
-<exercice>
-<!-- class="calcul centrer"  -->
-4196 - 4087 - 4548 - 4740 - 4999 - 4408 - 4319 - 4250
-
-<!-- class="centrer"  -->
-[[4999]] 
-[[4740]] 
-[[4548]]
-[[4408]]
-[[4319]]
-[[4250]]
-[[4196]]
-[[4087]]
-</exercice>
-
-<exercice>
-<!-- class="calcul centrer"  -->
-4170 - 4017 - 4240 - 4322 - 4089 - 4358 - 4319 - 4508
-
-<!-- class="centrer"  -->
-[[4508]] 
-[[4358]] 
-[[4322]]
-[[4319]]
-[[4240]]
-[[4170]]
-[[4089]]
-[[4017]]
-</exercice>
-
-### Classer des nombres du plus petit au plus grand (ordre croissant)
-
-@rm_lire(`Classe les nombres suivants du plus petit au plus grand.`)
-
-<exercice>
-<!-- class="calcul centrer"  -->
-4253 - 4224 - 4232 - 4258 - 4201 - 4275 - 4299 - 4228
-
-<!-- class="centrer"  -->
-[[4201]] 
-[[4224]] 
-[[4228]]
-[[4232]]
-[[4253]]
-[[4258]]
-[[4275]]
-[[4299]]
-</exercice>
-
-<exercice>
-<!-- class="calcul centrer"  -->
-6800 - 6845 - 6856 - 6809 - 6880 - 6874 - 6835 - 6896
-
-<!-- class="centrer"  -->
-[[6800]] 
-[[6809]] 
-[[6835]]
-[[6845]]
-[[6856]]
-[[6874]]
-[[6880]]
-[[6896]]
-</exercice>
-
-<exercice>
-<!-- class="calcul centrer"  -->
-6985 - 4660 - 4712 - 4205 - 4482 - 4510 - 4320 - 4182
-
-<!-- class="centrer"  -->
-[[4182]] 
-[[4205]] 
-[[4320]]
-[[4482]]
-[[4510]]
-[[4660]]
-[[4712]]
-[[6985]]
-</exercice>
-
-<exercice>
-<!-- class="calcul centrer"  -->
-4098 - 6850 - 4140 - 4397 - 4229 - 6700 - 6687 - 4498
-
-<!-- class="centrer"  -->
-[[4098]] 
-[[4140]] 
-[[4229]]
-[[4397]]
-[[4498]]
-[[6687]]
-[[6700]]
-[[6850]]
-</exercice>
-
-<exercice>
-<!-- class="calcul centrer"  -->
-4196 - 4087 - 4548 - 4740 - 4999 - 4408 - 4319 - 4250
-
-<!-- class="centrer"  -->
-[[4087]] 
-[[4196]] 
-[[4250]]
-[[4319]]
-[[4408]]
-[[4548]]
-[[4740]]
-[[4999]]
-</exercice>
-
-<exercice>
-<!-- class="calcul centrer"  -->
-4236 - 4150 - 4024 - 4540 - 4098 - 4275 - 4305 - 4196
-
-<!-- class="centrer"  -->
-[[4024]] 
-[[4098]] 
-[[4150]]
-[[4196]]
-[[4236]]
-[[4275]]
-[[4305]]
-[[4540]]
-</exercice>
-
-### Indiquer le nombre le plus grand
-@rm_lire(`Coche le nombre le plus grand dans chaque exercice.`)
-
-<exercice>
-1. 
-- [(x)] 6648
-- [( )] 5284
-</exercice>
-
-<exercice>
-2. 
-- [(x)] 7366
-- [( )] 5184
-</exercice>
-
-<exercice>
-3. 
-- [( )] 5500
-- [(x)] 9999
-</exercice>
-
-<exercice>
-4. 
-- [( )] 6699
-- [(x)] 9953
-</exercice>
-
-<exercice>
-5. 
-- [( )] 3208
-- [(x)] 6506
-</exercice>
-
-<exercice>
-6. 
-- [(x)] 7799
-- [( )] 5999
-</exercice>
-
-<exercice>
-7. 
-- [(x)] 7100
-- [( )] 6014
-</exercice>
-
-<exercice>
-8. 
-- [(x)] 9902
-- [( )] 5499
-</exercice>
-
-<exercice>
-9. 
-- [( )] 4320
-- [(x)] 4322
-</exercice>
-
-<exercice>
-10. 
-- [(x)] 9700
-- [( )] 9699
-</exercice>
-
 ## Je comprends comment comparer des nombres entre eux jusqu'à 9999
 
 !?[](https://www.youtube.com/watch?v=FV-uBVGKIbI)
@@ -261,7 +10,7 @@
 @rm_lire(`Dans chaque exercice, écris le nombre qui vient juste avant celui donné.`)
 
 <exercice>
-<!-- class="calcul"  -->
+4253 - 4224 - 4232 - 4258 - 4201 - 4275 - 4299 - 4228 - 4202 - 4203 - 4204 - 4205 - 4206 - 4207
 [[2185]] 
 < 2186
 </exercice>
@@ -279,10 +28,10 @@
 </exercice>
 
 <exercice>
-<!-- class="calcul"  -->
+6012 - 6050 - 6090 - 6147 - 6150 - 6200 - 6283 - 6300 - 6461 - 6528 - 6600 - 6674 - 6795 - 6001 - 6011
 [[5472]]  
-< 5473
-</exercice>
+6012 - 6050 - 6147 - 6283 - 6461 - 6528 - 6674 - 6090
+6674 - 6012 - 6528 - 6147 - 6795 - 6283 - 6461 - 6050 - 6001 - 6002 - 6003 - 6004 - 6005 - 6006 - 6007 - 6008
 
 <exercice>
 <!-- class="calcul"  -->
@@ -297,15 +46,15 @@
 </exercice>
 
 <exercice>
-<!-- class="calcul"  -->
+5639 - 3158 - 7204 - 2346 - 6090 - 8571 - 6400 - 4783 - 6300 - 6312
 [[8698]] 
 < 8699
 </exercice>
-
+5639 - 3158 - 7204 - 2346 - 6090 - 8571 - 6400 - 4783 - 6300 - 6312 - 6002 - 6003 - 6004 - 6005
 <exercice>
 <!-- class="calcul"  -->
 [[7575]] 
-< 7576
+5639 - 3158 - 7204 - 2346 - 6090 - 8571 - 6400 - 4783 - 6300 - 6312 - 6320 - 6330 - 6340 - 6350
 </exercice>
 
 <exercice>
@@ -314,7 +63,7 @@
 < 8901
 </exercice>
 
-<exercice>
+4271 - 9362 - 8516 - 2957 - 1849 - 7000 - 5723 - 6080 - 8510 - 8520
 <!-- class="calcul"  -->
 [[8798]] 
 < 8799
@@ -322,16 +71,16 @@
 
 <exercice>
 <!-- class="calcul"  -->
-[[9839]] 
+4271 - 9362 - 8516 - 2957 - 1849 - 7000 - 5723 - 6080 - 8510 - 8520 - 8500 - 8501 - 8502 - 8503
 < 9840
 </exercice>
 
-<exercice>
+4271 - 9362 - 8516 - 2957 - 1849 - 7000 - 5723 - 6080 - 8500 - 8501 - 8502 - 8503 - 8504 - 8505 - 8506
 <!-- class="calcul"  -->
 [[9500]] 
 < 9501
 </exercice>
-
+4683 - 8519 - 5274 - 2498 - 3127 - 7002 - 9000 - 9001 - 9002
 <exercice>
 <!-- class="calcul"  -->
 [[7299]] 
@@ -343,12 +92,12 @@
 [[5099]] 
 < 5100
 </exercice>
-
+4683 - 8519 - 5274 - 2498 - 3127 - 7002 - 9000 - 9001 - 9002 - 9003 - 9004 - 9005 - 9006
 <exercice>
 <!-- class="calcul"  -->
 [[6249]] 
 < 6250
-</exercice>
+4683 - 8519 - 5274 - 2498 - 3127 - 7002 - 5671 - 9000 - 9001 - 9002 - 9003 - 9004 - 9005 - 9006 - 9007 - 9008
 
 ### Écrire le nombre qui vient juste après celui donné
 
@@ -364,7 +113,7 @@
 3256 < [[3257]]
 </exercice>
 
-<exercice>
+6842 - 7815 - 2364 - 5197 - 3951 - 8427 - 6000 - 6840 - 6850 - 6800 - 6810 - 6820 - 6830
 <!-- class="calcul"  -->
 4440 < [[4441]]
 </exercice>
@@ -435,77 +184,92 @@
 
 <exercice>
 <!-- class="calcul"  -->
-[[3216]] < 3217 < [[3218]]
+[[3216]] 
+< 3217 < [[3218]]
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-[[4581]] < 4582 < [[4583]]
+[[4581]] 
+< 4582 < [[4583]]
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-[[6824]] < 6825 < [[6826]]
+[[6824]] 
+< 6825 < [[6826]]
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-[[7912]] < 7913 < [[7914]]
+[[7912]] 
+< 7913 < [[7914]]
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-[[6606]] < 6607 < [[6608]]
+[[6606]] 
+< 6607 < [[6608]]
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-[[8739]] < 8740 < [[8741]]
+[[8739]] 
+< 8740 < [[8741]]
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-[[7350]] < 7351 < [[7352]]
+[[3350]] 
+< 3351 < [[3352]]
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-[[8409]] < 8410 < [[8411]]
+[[8409]] 
+< 8410 < [[8411]]
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-[[4160]] < 4161 < [[4162]]
+[[4160]] 
+< 4161 < [[4162]]
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-[[6469]] < 6470 < [[6471]]
+[[6469]] 
+< 6470 < [[6471]]
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-[[7878]] < 7879 < [[7880]]
+[[7878]] 
+< 7879 < [[7880]]
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-[[8905]] < 8906 < [[8907]]
+[[8905]] 
+< 8906 < [[8907]]
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-[[7499]] < 7500 < [[7501]]
+[[4499]] 
+< 4500 < [[4501]]
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-[[8999]] < 9000 < [[9001]]
+[[8999]] 
+< 9000 < [[9001]]
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-[[9998]] < 9999 < [[10000]]
+[[9998]] 
+< 9999 < [[10000]]
 </exercice>
 
 ### Indiquer le nombre le plus petit
@@ -571,3 +335,275 @@
 - [(x)] 6800
 - [( )] 7901
 </exercice>
+
+### Indiquer le nombre le plus grand
+@rm_lire(`Coche le nombre le plus grand dans chaque exercice.`)
+
+<exercice>
+1. 
+- [(x)] 6648
+- [( )] 5284
+</exercice>
+
+<exercice>
+2. 
+- [(x)] 7366
+- [( )] 5184
+</exercice>
+
+<exercice>
+3. 
+- [( )] 5500
+- [(x)] 9999
+</exercice>
+
+<exercice>
+4. 
+- [( )] 6699
+- [(x)] 9953
+</exercice>
+
+<exercice>
+5. 
+- [( )] 3208
+- [(x)] 6506
+</exercice>
+
+<exercice>
+6. 
+- [(x)] 7799
+- [( )] 5999
+</exercice>
+
+<exercice>
+7. 
+- [(x)] 7100
+- [( )] 6014
+</exercice>
+
+<exercice>
+8. 
+- [(x)] 9902
+- [( )] 5499
+</exercice>
+
+<exercice>
+9. 
+- [( )] 4320
+- [(x)] 4322
+</exercice>
+
+<exercice>
+10. 
+- [(x)] 9700
+- [( )] 9699
+</exercice>
+
+### Classer des nombres du plus petit au plus grand (ordre croissant)
+
+@rm_lire(`Classe les nombres suivants du plus petit au plus grand.`)
+
+<exercice>
+<!-- class="calcul centrer"  -->
+4253 - 4224 - 4232 - 4258 - 4201 - 4275 - 4299 - 4228
+
+<!-- class="centrer"  -->
+[[4201]] 
+[[4224]] 
+[[4228]]
+[[4232]]
+[[4253]]
+[[4258]]
+[[4275]]
+[[4299]]
+</exercice>
+
+<exercice>
+<!-- class="calcul centrer"  -->
+6674 - 6012 - 6528 - 6147 - 6795 - 6283 - 6461 - 6050
+
+<!-- class="centrer"  -->
+[[6012]] 
+[[6050]] 
+[[6147]]
+[[6283]]
+[[6461]]
+[[6528]]
+[[6674]]
+[[6795]]
+</exercice>
+
+<exercice>
+<!-- class="calcul centrer"  -->
+5639 - 3158 - 7204 - 2346 - 6090 - 8571 - 6400 - 4783
+
+<!-- class="centrer"  -->
+[[2346]] 
+[[3158]] 
+[[4783]]
+[[5639]]
+[[6090]]
+[[6400]]
+[[7204]]
+[[8571]]
+</exercice>
+
+<exercice>
+<!-- class="calcul centrer"  -->
+4271 - 9362 - 8516 - 2957 - 1849 - 8000 - 4723 - 6080
+
+<!-- class="centrer"  -->
+[[1849]] 
+[[2957]] 
+[[4271]]
+[[4723]]
+[[6080]]
+[[8000]]
+[[8516]]
+[[9362]]
+</exercice>
+
+<exercice>
+<!-- class="calcul centrer"  -->
+4683 - 8519 - 5274 - 2498 - 3127 - 7002 - 5671 - 9000
+
+<!-- class="centrer"  -->
+[[2498]] 
+[[3127]] 
+[[4683]]
+[[5274]]
+[[5671]]
+[[7002]]
+[[8519]]
+[[9000]]
+</exercice>
+
+<exercice>
+<!-- class="calcul centrer"  -->
+6842 - 7815 - 2364 - 5197 - 3951 - 8427 - 6000 - 4572
+
+<!-- class="centrer"  -->
+[[2364]] 
+[[3951]] 
+[[4572]]
+[[5197]]
+[[6000]]
+[[6842]]
+[[7815]]
+[[8427]]
+</exercice>
+
+<h4>POUR ALLER PLUS LOIN...</h4>
+@rm_lire(Coche l'étoile __Personnalisé__ puis règle le jeu comme sur l'image pour réaliser l'exercice proposé.)
+
+[<div><img src="https://cours.relaxmaths.be/images/numeration/ordre_croissant_perso.png" loading="lazy" /></div>](https://www.logicieleducatif.fr/jeu/rangement-en-ordre-croissant)
+
+<!-- class="qr_150" -->
+[QR-CODE](https://www.logicieleducatif.fr/jeu/rangement-en-ordre-croissant)
+
+### Classer des nombres du plus grand au plus petit (ordre décroissant)
+
+@rm_lire(`Classe les nombres suivants du plus grand au plus petit.`)
+
+<exercice>
+<!-- class="calcul centrer"  -->
+4510 - 4562 - 4548 - 4501 - 4587 - 4596 - 4563 - 4512
+
+<!-- class="centrer" --> 
+[[4596]] 
+[[4587]] 
+[[4563]] 
+[[4562]] 
+[[4548]] 
+[[4512]] 
+[[4510]] 
+[[4501]] 
+</exercice>
+
+<exercice>
+<!-- class="calcul centrer"  -->
+8927 - 8814 - 8843 - 8856 - 8872 - 8891 - 8880 - 8835
+
+<!-- class="centrer"  -->
+[[8927]] 
+[[8891]] 
+[[8880]] 
+[[8872]] 
+[[8856]] 
+[[8843]] 
+[[8835]] 
+[[8814]] 
+</exercice>
+
+<exercice>
+<!-- class="calcul centrer"  -->
+5824 - 4300 - 6384 - 7212 - 8009 - 8456 - 9501 - 9000 - 7653 - 6542
+
+<!-- class="centrer"  -->
+[[9501]] 
+[[9000]] 
+[[8456]] 
+[[8009]] 
+[[7653]] 
+[[7212]] 
+[[6542]] 
+[[6384]] 
+[[5824]] 
+[[4300]] 
+</exercice>
+
+<exercice>
+<!-- class="calcul centrer"  -->
+7812 - 8820 - 9000 - 9522 - 8010 - 7000 - 6541 - 6000 - 5821 - 4300
+
+<!-- class="centrer"  -->
+[[9522]] 
+[[9000]] 
+[[8820]] 
+[[8010]] 
+[[7812]] 
+[[7000]] 
+[[6541]] 
+[[6000]] 
+[[5821]] 
+[[4300]] 
+</exercice>
+
+<exercice>
+<!-- class="calcul centrer"  -->
+7821 - 4087 - 6548 - 2740 - 5999 - 6319 - 2250 - 4250
+
+<!-- class="centrer"  -->
+[[7821]] 
+[[6548]] 
+[[6319]] 
+[[5999]] 
+[[4250]] 
+[[4087]] 
+[[2740]] 
+[[2250]] 
+</exercice>
+
+<exercice>
+<!-- class="calcul centrer"  -->
+9170 - 4017 - 8240 - 4322 - 4089 - 6358 - 2319 - 7508
+
+<!-- class="centrer"  -->
+[[9170]] 
+[[8240]] 
+[[7508]] 
+[[6358]] 
+[[4322]] 
+[[4089]] 
+[[4017]] 
+[[2319]] 
+</exercice>
+
+<h4>POUR ALLER PLUS LOIN...</h4>
+@rm_lire(Coche l'étoile __Personnalisé__ puis règle le jeu comme sur l'image pour réaliser l'exercice proposé.)
+
+[<div><img src="https://cours.relaxmaths.be/images/numeration/ordre_croissant_perso.png" loading="lazy" /></div>](https://www.logicieleducatif.fr/jeu/rangement-en-ordre-decroissant)
+
+
+<!-- class="qr_150" -->
+[QR-CODE](https://www.logicieleducatif.fr/jeu/rangement-en-ordre-decroissant)
