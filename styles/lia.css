@@ -15,7 +15,6 @@
     }
 }
 
-
 .lia-table__header {
     padding: 4px !important;
     min-width: 0 !important;
@@ -26,6 +25,8 @@
     padding: 0 !important;
     margin: 0 !important;
 }
+
+
 
 .lia-support-menu {
     display: none;
@@ -603,6 +604,7 @@ html .lia-toc__content {
   overflow-y: scroll !important;      /* Toujours scrollable, scrollbar présente */
   scrollbar-width: thin;              /* Firefox : fine */
   scrollbar-color: transparent transparent; /* Firefox : invisible par défaut */
+  -webkit-overflow-scrolling: touch;      /* iOS : inertie au scroll */
 }
 
 /* Chrome, Safari, Opera : scrollbar fine et transparente par défaut */
@@ -857,6 +859,10 @@ button .icon,
 
 .lia-divider{
 
+}
+
+.full-width-table {
+    table-layout: fixed;
 }
 
 .lia-table {
