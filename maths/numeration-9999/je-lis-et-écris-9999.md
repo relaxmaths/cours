@@ -1,9 +1,9 @@
 ## Je lis et j'écris les nombres jusqu'à 9999
 
-!?[Lire et écrire les nombres de 1000 à 9999](https://youtu.be/AZLmIP48Xho?feature=shared)
+!?[Lire et écrire les nombres de 1000 à 9999](https://www.youtube.com/watch?v=qpNKsGeQpBM)
 
 <!-- class="qr_150" -->
-[QR-CODE](https://youtu.be/AZLmIP48Xho?feature=shared)
+[QR-CODE](https://www.youtube.com/watch?v=qpNKsGeQpBM)
 
 <columns>
 

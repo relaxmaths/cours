@@ -1040,6 +1040,13 @@ hr {
   line-height: 1.4; /* Ajuste la hauteur de ligne pour un bon alignement */
 }
 
+.lia-list--ordered li::marker {
+  display: inline-block;
+  width: 1.5em;
+  text-align: right;
+  margin-right: 0.5em;
+}
+
 .lia-list--unordered li::before {
   content: '';
   position: absolute;

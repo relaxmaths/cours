@@ -657,10 +657,10 @@ Déplace les bons nombres aux bons endroits, puis clique sur "Valider" en-bas de
 
 ## Je lis et j'écris les nombres jusqu'à 9999
 
-!?[Lire et écrire les nombres de 1000 à 9999](https://youtu.be/AZLmIP48Xho?feature=shared)
+!?[Lire et écrire les nombres de 1000 à 9999](https://www.youtube.com/watch?v=qpNKsGeQpBM)
 
 <!-- class="qr_150" -->
-[QR-CODE](https://youtu.be/AZLmIP48Xho?feature=shared)
+[QR-CODE](https://www.youtube.com/watch?v=qpNKsGeQpBM)
 
 <columns>
 
@@ -861,7 +861,6 @@ Un moyen visuel pour retenir comment lire et écrire un nombre de 1000 à 9999 f
 @rm_lire(`Dans chaque exercice, écris le nombre qui vient juste avant celui donné.`)
 
 <exercice>
-4253 - 4224 - 4232 - 4258 - 4201 - 4275 - 4299 - 4228 - 4202 - 4203 - 4204 - 4205 - 4206 - 4207
 [[2185]] 
 < 2186
 </exercice>
@@ -879,10 +878,10 @@ Un moyen visuel pour retenir comment lire et écrire un nombre de 1000 à 9999 f
 </exercice>
 
 <exercice>
-6012 - 6050 - 6090 - 6147 - 6150 - 6200 - 6283 - 6300 - 6461 - 6528 - 6600 - 6674 - 6795 - 6001 - 6011
+<!-- class="calcul"  -->
 [[5472]]  
-6012 - 6050 - 6147 - 6283 - 6461 - 6528 - 6674 - 6090
-6674 - 6012 - 6528 - 6147 - 6795 - 6283 - 6461 - 6050 - 6001 - 6002 - 6003 - 6004 - 6005 - 6006 - 6007 - 6008
+< 5473
+</exercice>
 
 <exercice>
 <!-- class="calcul"  -->
@@ -897,15 +896,15 @@ Un moyen visuel pour retenir comment lire et écrire un nombre de 1000 à 9999 f
 </exercice>
 
 <exercice>
-5639 - 3158 - 7204 - 2346 - 6090 - 8571 - 6400 - 4783 - 6300 - 6312
+<!-- class="calcul"  -->
 [[8698]] 
 < 8699
 </exercice>
-5639 - 3158 - 7204 - 2346 - 6090 - 8571 - 6400 - 4783 - 6300 - 6312 - 6002 - 6003 - 6004 - 6005
+
 <exercice>
 <!-- class="calcul"  -->
 [[7575]] 
-5639 - 3158 - 7204 - 2346 - 6090 - 8571 - 6400 - 4783 - 6300 - 6312 - 6320 - 6330 - 6340 - 6350
+< 7576
 </exercice>
 
 <exercice>
@@ -914,7 +913,7 @@ Un moyen visuel pour retenir comment lire et écrire un nombre de 1000 à 9999 f
 < 8901
 </exercice>
 
-4271 - 9362 - 8516 - 2957 - 1849 - 7000 - 5723 - 6080 - 8510 - 8520
+<exercice>
 <!-- class="calcul"  -->
 [[8798]] 
 < 8799
@@ -922,16 +921,16 @@ Un moyen visuel pour retenir comment lire et écrire un nombre de 1000 à 9999 f
 
 <exercice>
 <!-- class="calcul"  -->
-4271 - 9362 - 8516 - 2957 - 1849 - 7000 - 5723 - 6080 - 8510 - 8520 - 8500 - 8501 - 8502 - 8503
+[[9839]]  
 < 9840
 </exercice>
 
-4271 - 9362 - 8516 - 2957 - 1849 - 7000 - 5723 - 6080 - 8500 - 8501 - 8502 - 8503 - 8504 - 8505 - 8506
+<exercice>
 <!-- class="calcul"  -->
 [[9500]] 
 < 9501
 </exercice>
-4683 - 8519 - 5274 - 2498 - 3127 - 7002 - 9000 - 9001 - 9002
+
 <exercice>
 <!-- class="calcul"  -->
 [[7299]] 
@@ -943,12 +942,12 @@ Un moyen visuel pour retenir comment lire et écrire un nombre de 1000 à 9999 f
 [[5099]] 
 < 5100
 </exercice>
-4683 - 8519 - 5274 - 2498 - 3127 - 7002 - 9000 - 9001 - 9002 - 9003 - 9004 - 9005 - 9006
+
 <exercice>
 <!-- class="calcul"  -->
 [[6249]] 
 < 6250
-4683 - 8519 - 5274 - 2498 - 3127 - 7002 - 5671 - 9000 - 9001 - 9002 - 9003 - 9004 - 9005 - 9006 - 9007 - 9008
+</exercice>
 
 ### Écrire le nombre qui vient juste après celui donné
 
@@ -964,7 +963,7 @@ Un moyen visuel pour retenir comment lire et écrire un nombre de 1000 à 9999 f
 3256 < [[3257]]
 </exercice>
 
-6842 - 7815 - 2364 - 5197 - 3951 - 8427 - 6000 - 6840 - 6850 - 6800 - 6810 - 6820 - 6830
+<exercice>
 <!-- class="calcul"  -->
 4440 < [[4441]]
 </exercice>

@@ -1,6 +1,6 @@
 <!--
 link: https://fonts.googleapis.com/css?family=Montserrat:700,400|Fira+Mono&display=swap
-    https://cours.relaxmaths.be/styles/lia.css?v5
+    https://cours.relaxmaths.be/styles/lia.css?v8
 
 version:  2.0.0
 
@@ -28,6 +28,7 @@ sharing: false
 .lia-btn.lia-quiz__resolve {
     visibility: hidden;
     display: none;
+}  
 }
 
 @end
@@ -39,6 +40,10 @@ sharing: false
 @rm_jaune: <dj>@0</dj>
 @rm_rouge: <dr>@0</dr>
 @rm_vert: <dv>@0</dv>
+
+@onload
+
+@end
 -->
 
 # Numération 999

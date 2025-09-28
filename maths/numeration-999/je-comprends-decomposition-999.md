@@ -58,7 +58,7 @@
 </exercice>
 
 <exercice>
-<!-- data-type="none" data-sortable="false" -->
+<!-- data-type="none" data-sortable="false" class="full-width-table" -->
 | ![](https://cours.relaxmaths.be/images/numeration/1.svg)     |  +   |     ![](https://cours.relaxmaths.be/images/numeration/1.svg) |+| ![](https://cours.relaxmaths.be/images/numeration/1.svg)     | +  | ![](https://cours.relaxmaths.be/images/numeration/1.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/1.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/1.svg)     |
 | :------:| :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
 
@@ -70,7 +70,7 @@
 </exercice>
 
 <exercice>
-<!-- data-type="none" data-sortable="false" -->
+<!-- data-type="none" data-sortable="false" class="full-width-table" -->
 | ![](https://cours.relaxmaths.be/images/numeration/1.svg)     |  +   |     ![](https://cours.relaxmaths.be/images/numeration/1.svg) |+| ![](https://cours.relaxmaths.be/images/numeration/1.svg)     | +  | ![](https://cours.relaxmaths.be/images/numeration/1.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/1.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/1.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/1.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/1.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/1.svg)     |
 | :------:| :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
 
@@ -98,7 +98,7 @@
 </exercice>
 
 <exercice>
-<!-- data-type="none" data-sortable="false" -->
+<!-- data-type="none" data-sortable="false" class="full-width-table" -->
 | ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |  +   |     ![](https://cours.relaxmaths.be/images/numeration/10.svg) |+| ![](https://cours.relaxmaths.be/images/numeration/10.svg)     | +  | ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |
 | :------:| :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
 
@@ -110,7 +110,7 @@
 </exercice>
 
 <exercice>
-<!-- data-type="none" data-sortable="false" -->
+<!-- data-type="none" data-sortable="false" class="full-width-table" -->
 | ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |
 | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
 
@@ -137,7 +137,7 @@
 </exercice>
 
 <exercice>
-<!-- data-type="none" data-sortable="false" -->
+<!-- data-type="none" data-sortable="false" class="full-width-table" -->
 |     ![](https://cours.relaxmaths.be/images/numeration/100.svg) |+| ![](https://cours.relaxmaths.be/images/numeration/100.svg)     | +  | ![](https://cours.relaxmaths.be/images/numeration/100.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/100.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/100.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/100.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/100.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/100.svg)     |
 | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
 
@@ -149,7 +149,7 @@
 </exercice>
 
 <exercice>
-<!-- data-type="none" data-sortable="false" -->
+<!-- data-type="none" data-sortable="false" class="full-width-table" -->
 |     ![](https://cours.relaxmaths.be/images/numeration/100.svg) |+| ![](https://cours.relaxmaths.be/images/numeration/100.svg)     | +  | ![](https://cours.relaxmaths.be/images/numeration/100.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/100.svg)     |
 | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
 <!-- class="calcul"  -->
