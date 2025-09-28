@@ -995,6 +995,12 @@ columns > column, columns > button_column {
 
 button_column {
     width: 70px;
+
+    .lia-effect--inline {
+      label {
+        height: 0;
+      }
+    }
 }
 
 h4 {
