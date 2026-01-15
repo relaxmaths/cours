@@ -77,4 +77,4 @@ Pour commencer, voici une vidéo te permettant d'apprendre à lire et à écrire
 
 !import[/maths/numeration-999/je-lis-et-écris-999.md]
 
-!import[/maths/numeration-999/je-comprend-comparer-999.md]
+!import[/maths/numeration-999/je-comprends-comparer-999.md]

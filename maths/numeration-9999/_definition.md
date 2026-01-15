@@ -115,5 +115,5 @@ Pour commencer, voici une vidéo te permettant d'apprendre à lire et à écrire
 
 !import[/maths/numeration-9999/je-lis-et-écris-9999.md]
 
-!import[/maths/numeration-9999/je-comprend-comparer-9999.md]
+!import[/maths/numeration-9999/je-comprends-comparer-9999.md]
 
