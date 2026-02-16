@@ -866,6 +866,7 @@ button .icon,
     background-color: white;
     border-radius: 16px;
     padding: 30px;
+    text-align: center;
 }
 
 .full-width-table {
