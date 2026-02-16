@@ -861,6 +861,13 @@ button .icon,
 
 }
 
+.lia-figure {
+    outline: 2px dotted #cfc7be;
+    background-color: white;
+    border-radius: 16px;
+    padding: 30px;
+}
+
 .full-width-table {
     table-layout: fixed;
 }
@@ -970,6 +977,8 @@ exercice {
     box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.04),
               inset -4px -4px 8px rgba(0, 0, 0, 0.06);
 }
+
+
 
 .lia-effect--inline label {
     margin-top: 10px;
