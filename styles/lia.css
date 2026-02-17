@@ -861,6 +861,7 @@ button .icon,
 
 }
 
+
 exercice .lia-figure {
     outline: 2px dotted #cfc7be;
     background-color: white;
@@ -868,6 +869,16 @@ exercice .lia-figure {
     padding: 30px;
     text-align: center;
 }
+
+/* Override: remove those styles when INSIDE .lia-table */
+.lia-table exercice .lia-figure {
+  outline: none;
+  background-color: inherit;
+  border-radius: 0;
+  padding: 0;
+  text-align: inherit;
+}
+
 
 .full-width-table {
     table-layout: fixed;
