@@ -871,7 +871,7 @@ exercice .lia-figure {
 }
 
 /* Override: remove those styles when INSIDE .lia-table */
-.lia-table exercice .lia-figure {
+.lia-table .lia-figure {
   outline: none;
   background-color: inherit;
   border-radius: 0;
