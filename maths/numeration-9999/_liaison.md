@@ -1,6 +1,6 @@
 <!--
 link: https://fonts.googleapis.com/css?family=Montserrat:700,400|Fira+Mono&display=swap
-    https://cours.relaxmaths.be/styles/lia.css?v5
+    https://cours.relaxmaths.be/styles/lia.css?v14
 
 version:  2.0.0
 
@@ -48,6 +48,9 @@ output.lia-script {
 @rm_jaune: <dj>@0</dj>
 @rm_rouge: <dr>@0</dr>
 @rm_vert: <dv>@0</dv>
+
+@rm_question_calcul: @0 = [[****************************]] <script>let i=`@input`.replace(/\s+/g, '');@1.split(";").some(ans=>i===ans.replace(/\s+/g, ''))</script>
+
 @rm_nombre
 <script>
 function afficher_nombre(N) {
@@ -111,9 +114,9 @@ Pour commencer, voici une vidéo te permettant d'apprendre à lire et à écrire
 
 </div>
 
-!import[/maths/numeration-9999/je-comprends-decomposition-9999.md]
+!import[/maths/numeration-9999/Morceaux/je-comprends-decomposition-9999.md]
 
-!import[/maths/numeration-9999/je-lis-et-écris-9999.md]
+!import[/maths/numeration-9999/Morceaux/je-lis-et-écris-9999.md]
 
-!import[/maths/numeration-9999/je-comprends-comparer-9999.md]
+!import[/maths/numeration-9999/Morceaux/je-comprends-comparer-9999.md]
 

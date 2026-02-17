@@ -9,46 +9,11 @@
 | 100 | 10 | 1 |
 </exercice>
 
-### Associer une image au nombre correspondant
-
-
-@rm_lire(`Écris en-dessous de chaque image à quel nombre elle correspond.<br/> Pour t'aider, inspire-toi de l'exemple donné.`)
-
-<exercice>
-<!-- data-type="none" data-sortable="false" class="vertical_fit_125" -->
-| ![](https://cours.relaxmaths.be/images/numeration/100.svg) | ![](https://cours.relaxmaths.be/images/numeration/100.svg) | ![](https://cours.relaxmaths.be/images/numeration/10.svg) | ![](https://cours.relaxmaths.be/images/numeration/1.svg) | ![](https://cours.relaxmaths.be/images/numeration/1.svg) |
-| :------: | :------: | :------: |:------: |:------: |
-| <db>100</db>     |   <db>100</db>   |     <dv>10</dv> | <dj>1</dj>     |   <dj>1</dj>   |
-</exercice>
-
-<exercice>
-<!-- data-type="none" data-sortable="false" class="vertical_fit_125" -->
-| ![](https://cours.relaxmaths.be/images/numeration/100.svg) | ![](https://cours.relaxmaths.be/images/numeration/100.svg) | ![](https://cours.relaxmaths.be/images/numeration/100.svg) | ![](https://cours.relaxmaths.be/images/numeration/10.svg) | ![](https://cours.relaxmaths.be/images/numeration/10.svg) | ![](https://cours.relaxmaths.be/images/numeration/1.svg) | ![](https://cours.relaxmaths.be/images/numeration/1.svg) |
-| :------: | :------: | :------:  |:------: |:------: |:------: |:------: |
-| [[100]]     |   [[100]]   |   [[100]]   |   [[10]]   |     [[10]] | [[1]]     |   [[1]]   |
-</exercice>
-
-<exercice>
-<!-- data-type="none" data-sortable="false" class="vertical_fit_125" -->
-| ![](https://cours.relaxmaths.be/images/numeration/100.svg) | ![](https://cours.relaxmaths.be/images/numeration/10.svg) | ![](https://cours.relaxmaths.be/images/numeration/10.svg) | ![](https://cours.relaxmaths.be/images/numeration/10.svg) | ![](https://cours.relaxmaths.be/images/numeration/1.svg) | ![](https://cours.relaxmaths.be/images/numeration/1.svg) | ![](https://cours.relaxmaths.be/images/numeration/1.svg) |![](https://cours.relaxmaths.be/images/numeration/1.svg) |
-|:------: |:------:  | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
-|[[100]]     |     [[10]] |     [[10]] |     [[10]] | [[1]]     |   [[1]]   |     [[1]] |[[1]]     |
-</exercice>
-
-<exercice>
-<!-- data-type="none" data-sortable="false" class="vertical_fit_125" -->
-|![](https://cours.relaxmaths.be/images/numeration/100.svg) | ![](https://cours.relaxmaths.be/images/numeration/10.svg) |![](https://cours.relaxmaths.be/images/numeration/10.svg) | ![](https://cours.relaxmaths.be/images/numeration/1.svg) | ![](https://cours.relaxmaths.be/images/numeration/1.svg) | ![](https://cours.relaxmaths.be/images/numeration/1.svg) |![](https://cours.relaxmaths.be/images/numeration/1.svg) |![](https://cours.relaxmaths.be/images/numeration/1.svg) |
-| :------: | :------: | :------:  |:------: |:------: |:------: |:------: |:------: |:------: |:------:  | :------: | :------: |
-|[[100]]     |[[10]]     |     [[10]] |[[1]]     |   [[1]]   |     [[1]] |[[1]]     |[[1]]     |
-</exercice>
-
 ### Effectuer des additions simples d'unités
 @rm_lire(`Complète suivant l'exemple donné.`)
 
 <exercice>
-<!-- data-type="none" data-sortable="false" -->
-| ![](https://cours.relaxmaths.be/images/numeration/1.svg)     |  +   |     ![](https://cours.relaxmaths.be/images/numeration/1.svg) |
-| :------:| :------: | :------: |
+![](https://cours.relaxmaths.be/images/numeration/2.svg)
 
 <!-- class="calcul"  -->
 = <dj>1</dj> + <dj>1</dj>
@@ -58,9 +23,7 @@
 </exercice>
 
 <exercice>
-<!-- data-type="none" data-sortable="false" class="full-width-table" -->
-| ![](https://cours.relaxmaths.be/images/numeration/1.svg)     |  +   |     ![](https://cours.relaxmaths.be/images/numeration/1.svg) |+| ![](https://cours.relaxmaths.be/images/numeration/1.svg)     | +  | ![](https://cours.relaxmaths.be/images/numeration/1.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/1.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/1.svg)     |
-| :------:| :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
+![](https://cours.relaxmaths.be/images/numeration/6.svg)
 
 <!-- class="calcul"  -->
 = [[1]] + [[1]] + [[1]] + [[1]] + [[1]] + [[1]]
@@ -70,9 +33,7 @@
 </exercice>
 
 <exercice>
-<!-- data-type="none" data-sortable="false" class="full-width-table" -->
-| ![](https://cours.relaxmaths.be/images/numeration/1.svg)     |  +   |     ![](https://cours.relaxmaths.be/images/numeration/1.svg) |+| ![](https://cours.relaxmaths.be/images/numeration/1.svg)     | +  | ![](https://cours.relaxmaths.be/images/numeration/1.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/1.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/1.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/1.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/1.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/1.svg)     |
-| :------:| :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
+![](https://cours.relaxmaths.be/images/numeration/9.svg)
 
 <!-- class="calcul"  -->
 = [[1]] + [[1]] + [[1]] + [[1]] + [[1]] + [[1]] + [[1]] + [[1]] + [[1]]
@@ -86,9 +47,7 @@
 @rm_lire(`Complète suivant l'exemple donné.`)
 
 <exercice>
-<!-- data-type="none" data-sortable="false" -->
-| ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |  +   |     ![](https://cours.relaxmaths.be/images/numeration/10.svg) |
-| :------:| :------: | :------: |
+![](https://cours.relaxmaths.be/images/numeration/20.svg)
 
 <!-- class="calcul"  -->
 = <dv>10</dv> + <dv>10</dv>
@@ -98,9 +57,7 @@
 </exercice>
 
 <exercice>
-<!-- data-type="none" data-sortable="false" class="full-width-table" -->
-| ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |  +   |     ![](https://cours.relaxmaths.be/images/numeration/10.svg) |+| ![](https://cours.relaxmaths.be/images/numeration/10.svg)     | +  | ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |
-| :------:| :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
+![](https://cours.relaxmaths.be/images/numeration/90.svg)
 
 <!-- class="calcul"  -->
 = [[10]] + [[10]] + [[10]] + [[10]] + [[10]] + [[10]] + [[10]] + [[10]] + [[10]]
@@ -110,9 +67,7 @@
 </exercice>
 
 <exercice>
-<!-- data-type="none" data-sortable="false" class="full-width-table" -->
-| ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/10.svg)     |
-| :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
+![](https://cours.relaxmaths.be/images/numeration/50.svg)
 
 <!-- class="calcul"  -->
 = [[10]] + [[10]] + [[10]] + [[10]] + [[10]]
@@ -125,9 +80,8 @@
 @rm_lire(`Complète suivant l'exemple donné.`)
 
 <exercice>
-<!-- data-type="none" data-sortable="false" -->
-| ![](https://cours.relaxmaths.be/images/numeration/100.svg)     |  +   |     ![](https://cours.relaxmaths.be/images/numeration/100.svg) |
-| :------:| :------: | :------: |
+
+![](https://cours.relaxmaths.be/images/numeration/200.svg)
 
 <!-- class="calcul"  -->
 = <db>100</db> + <db>100</db>
@@ -137,9 +91,7 @@
 </exercice>
 
 <exercice>
-<!-- data-type="none" data-sortable="false" class="full-width-table" -->
-|     ![](https://cours.relaxmaths.be/images/numeration/100.svg) |+| ![](https://cours.relaxmaths.be/images/numeration/100.svg)     | +  | ![](https://cours.relaxmaths.be/images/numeration/100.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/100.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/100.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/100.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/100.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/100.svg)     |
-| :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
+![](https://cours.relaxmaths.be/images/numeration/800.svg)
 
 <!-- class="calcul"  -->
 = [[100]] + [[100]] + [[100]] + [[100]] + [[100]] + [[100]] + [[100]] + [[100]]
@@ -149,9 +101,8 @@
 </exercice>
 
 <exercice>
-<!-- data-type="none" data-sortable="false" class="full-width-table" -->
-|     ![](https://cours.relaxmaths.be/images/numeration/100.svg) |+| ![](https://cours.relaxmaths.be/images/numeration/100.svg)     | +  | ![](https://cours.relaxmaths.be/images/numeration/100.svg)     |+| ![](https://cours.relaxmaths.be/images/numeration/100.svg)     |
-| :------: | :------: | :------: | :------: | :------: | :------: | :------: |
+![](https://cours.relaxmaths.be/images/numeration/400.svg)
+
 <!-- class="calcul"  -->
 = [[100]] + [[100]] + [[100]] + [[100]]
 
@@ -159,11 +110,55 @@
 = [[400]]
 </exercice>
 
-### Effectuer des additions simples C, D et U avec aide visuelle et dans l'ordre
+### Effectuer des additions simples C, D et U avec aide visuelle et dans l'ordre - étape 1
+
+@rm_lire(`Écris en-dessous de chaque image à quel nombre elle correspond.<br/> Pour t'aider, inspire-toi de l'exemple donné.`)
+
+<exercice>
+![](https://cours.relaxmaths.be/images/numeration/212.svg)
+
+<!-- class="calcul"  -->
+= <db>100</db> + <db>100</db> + <dv>10</dv> + <dj>1</dj> + <dj>1</dj>
+
+<!-- class="calcul"  -->
+= <db>200</db> + + <dv>10</dv> + <dj>2</dj>
+</exercice>
+
+<exercice>
+![](https://cours.relaxmaths.be/images/numeration/322.svg)
+
+<!-- class="calcul"  -->
+= [[100]] + [[100]] + [[100]] + [[10]] + [[10]] + [[1]] + [[1]]
+
+<!-- class="calcul"  -->
+= [[300]] + [[20]] + [[2]]
+</exercice>
+
+<exercice>
+![](https://cours.relaxmaths.be/images/numeration/134.svg)
+
+<!-- class="calcul"  -->
+= [[100]] + [[10]] + [[10]] + [[10]] + [[1]] + [[1]] + [[1]] + [[1]]
+
+<!-- class="calcul"  -->
+= [[100]] + [[30]] + [[4]]
+</exercice>
+
+<exercice>
+![](https://cours.relaxmaths.be/images/numeration/125.svg)
+
+<!-- class="calcul"  -->
+= [[100]] + [[10]] + [[10]] + [[1]] + [[1]] + [[1]] + [[1]] + [[1]]
+
+<!-- class="calcul"  -->
+= [[100]] + [[20]] + [[5]]
+</exercice>
+
+### Effectuer des additions simples C, D et U avec aide visuelle et dans l'ordre - étape 2
 @rm_lire(`Complète suivant l'exemple donné.`)
 
 <exercice>
-![](https://cours.relaxmaths.be/images/numeration/243.svg)
+![](https://cours.relaxmaths.be/images/numeration/243.svg?v3)
 
 <!-- class="calcul"  -->
 = <db>200</db> + <dv>40</dv> + <dj>3</dj>
@@ -382,14 +377,13 @@ Vérifie si les nombres vont bien de __1 à 999__ puis réalise l'exercice propo
 @rm_lire(`Effectue les additions suivantes en te référant à l'exemple.<br/> Tu obtiendras <u>un nombre à 3 chiffres</u> dans lequel tu placeras TOUJOURS le chiffre des centaines en premier, PUIS celui des dizaines, PUIS celui des unités.`)
 
 <exercice>
-<!-- class="calcul centrer"  -->
-<db>400</db> + <dj>8</dj> + <dv>50</dv> = <db>400</db> + <dv>50</dv> + <dj>8</dj> =  <db>4</db><dv>5</dv><dj>8</dj>
-
-
 <!-- data-type="none" data-sortable="false" -->
 | <db>C</db> | <dv>D</dv> | <dj>U</dj> |
 | :--------: | :--------: | :--------: |
 | <db>4</db> | <dv>5</dv> | <dj>8</dj> | 
+
+<!-- class="calcul centrer"  -->
+<db>400</db> + <dj>8</dj> + <dv>50</dv> =  <db>4</db><dv>5</dv><dj>8</dj>
 </exercice>
 
 <exercice>
@@ -456,13 +450,13 @@ Vérifie si les nombres vont bien de __1 à 999__ puis réalise l'exercice propo
 @rm_lire(`Effectue les additions suivantes en te référant à l'exemple.<br/> Tu obtiendras <u>un nombre à 3 chiffres</u> dans lequel tu placeras TOUJOURS le chiffre des centaines en premier, PUIS celui des dizaines, PUIS celui des unités`)
 
 <exercice>
-<!-- class="calcul centrer"  -->
-<db>400</db> + <dv>50</dv> = <db>4</db><dv>5</dv><dj>0</dj>
-
 <!-- data-type="none" data-sortable="false" -->
 | <db>C</db> | <dv>D</dv> | <dj>U</dj> |
 | :--------: | :--------: | :--------: |
-| <db>4</db> | <dv>5</dv> | <dj>0</dj> | 
+| <db>4</db> | <dv>5</dv> | <dj>0</dj> |
+
+<!-- class="calcul centrer"  -->
+<db>400</db> + <dv>50</dv> = <db>4</db><dv>5</dv><dj>0</dj>
 </exercice>
 
 <exercice>
@@ -515,13 +509,13 @@ Vérifie si les nombres vont bien de __1 à 999__ puis réalise l'exercice propo
 @rm_lire(`Effectue les additions suivantes en te référant à l'exemple.<br/> Tu obtiendras <u> un nombre à 3 chiffres </u> dans lequel tu placeras TOUJOURS le chiffre des centaines en premier, PUIS celui des dizaines, PUIS celui des unités`)
 
 <exercice>
-<!-- class="calcul centrer"  -->
-<db>400</db> + <dj>8</dj> = <db>4</db><dv>0</dv><dj>8</dj>
-
 <!-- data-type="none" data-sortable="false" -->
 | <db>C</db> | <dv>D</dv> | <dj>U</dj> |
 | :--------: | :--------: | :--------: |
 | <db>4</db> | <dv>0</dv> | <dj>8</dj> | 
+
+<!-- class="calcul centrer"  -->
+<db>400</db> + <dj>8</dj> = <db>4</db><dv>0</dv><dj>8</dj>
 </exercice>
 
 <exercice>
@@ -645,48 +639,39 @@ Vérifie si les nombres vont bien de __1 à 999__ puis réalise l'exercice propo
 </exercice>
 
 <exercice>
-<!-- class="calcul"  -->
-334 = [[300 + 30 + 4]]
+@rm_question_calcul(334, '["300+30+4"]')
 </exercice>
 
 <exercice>
-<!-- class="calcul"  -->
-876 = [[800 + 70 + 6]]
+@rm_question_calcul(876, '["800+70+6"]')
 </exercice>
 
 <exercice>
-<!-- class="calcul"  -->
-640 = [[600 + 40]]
+@rm_question_calcul(640, '["600+40"]')
 </exercice>
 
 <exercice>
-<!-- class="calcul"  -->
-472 = [[400 + 70 + 2]]
+@rm_question_calcul(472, '["400+70+2"]')
 </exercice>
 
 <exercice>
-<!-- class="calcul"  -->
-191 = [[100 + 90 + 1]]
+@rm_question_calcul(191, '["100+90+1"]')
 </exercice>
 
 <exercice>
-<!-- class="calcul"  -->
-250 = [[200 + 50]]
+@rm_question_calcul(250, '["200+50"]')
 </exercice>
 
 <exercice>
-<!-- class="calcul"  -->
-506 = [[500 + 6]]
+@rm_question_calcul(506, '["500+6"]')
 </exercice>
 
 <exercice>
-<!-- class="calcul"  -->
-121 = [[100 + 20 + 1]]
+@rm_question_calcul(121, '["100+20+1"]')
 </exercice>
 
 <exercice>
-<!-- class="calcul"  -->
-304 = [[300 + 4]]
+@rm_question_calcul(304, '["300+4"];["300+0+4"]')
 </exercice>
 
 
@@ -702,3 +687,6 @@ Vérifie si les nombres vont bien de __1 à 999__ puis réalise l'exercice propo
 
 <!-- class="qr_150" -->
 [QR-CODE](https://learningapps.org/watch?app=5953870)
+
+
+

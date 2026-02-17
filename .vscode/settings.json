@@ -1,5 +1,23 @@
 {
     "MdMerge.FolderPaths": [
         "/liaisons"
+    ],
+    "statusbarCommands.commands": [
+    {
+      "statusBarText": "              [  NATHALIE:"
+    },
+    {
+        "command": "extension.MdMergeAll",
+        "statusBarText": "$(combine) SAUVEGARDE dans le fichier de sortie",
+        "tooltipText": "Lancer la Sauvegarde des morceaux en un seul fichier (index.md), à lancer avant de voir un changement dans le navigateur (CTRL+MD)"
+    },
+    {
+        "command": "liascript-preview.liascript-preview",
+        "statusBarText": "$(preview) VOIR dans le navigateur",
+        "tooltipText": "Nécessaire un fois au début. Ouvrir d'abord le fichier index.md du cours voulu (SHIFT+ALT+L)"
+    },
+    {
+      "statusBarText": "]              "
+    },
     ]
 }

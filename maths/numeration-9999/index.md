@@ -1,7 +1,7 @@
 
 <!--
 link: https://fonts.googleapis.com/css?family=Montserrat:700,400|Fira+Mono&display=swap
-    https://cours.relaxmaths.be/styles/lia.css?v5
+    https://cours.relaxmaths.be/styles/lia.css?v14
 
 version:  2.0.0
 
@@ -49,6 +49,9 @@ output.lia-script {
 @rm_jaune: <dj>@0</dj>
 @rm_rouge: <dr>@0</dr>
 @rm_vert: <dv>@0</dv>
+
+@rm_question_calcul: @0 = [[****************************]] <script>let i=`@input`.replace(/\s+/g, '');@1.split(";").some(ans=>i===ans.replace(/\s+/g, ''))</script>
+
 @rm_nombre
 <script>
 function afficher_nombre(N) {
@@ -126,9 +129,7 @@ Pour commencer, voici une vidéo te permettant d'apprendre à lire et à écrire
 ### Effectuer des additions simples de milliers
 
 <exercice>
-<!-- data-type="none" data-sortable="false" -->
-| ![](https://cours.relaxmaths.be/images/numeration/1000.svg) | ![](https://cours.relaxmaths.be/images/numeration/1000.svg) | ![](https://cours.relaxmaths.be/images/numeration/1000.svg) | ![](https://cours.relaxmaths.be/images/numeration/1000.svg) | ![](https://cours.relaxmaths.be/images/numeration/1000.svg) |
-| :------: | :------: | :------: | :------: | :------: |
+![](https://cours.relaxmaths.be/images/numeration/5000.svg)
 
 <!-- class="calcul" -->
 = <dr>1000</dr> + <dr>1000</dr> + <dr>1000</dr> + <dr>1000</dr> + <dr>1000</dr>
@@ -138,9 +139,7 @@ Pour commencer, voici une vidéo te permettant d'apprendre à lire et à écrire
 </exercice>
 
 <exercice>
-<!-- data-type="none" data-sortable="false" -->
-| ![](https://cours.relaxmaths.be/images/numeration/1000.svg) | ![](https://cours.relaxmaths.be/images/numeration/1000.svg) |
-| :------: | :------: |
+![](https://cours.relaxmaths.be/images/numeration/2000.svg)
 
 <!-- class="calcul" -->
 = [[1000]] + [[1000]]
@@ -150,9 +149,7 @@ Pour commencer, voici une vidéo te permettant d'apprendre à lire et à écrire
 </exercice>
 
 <exercice>
-<!-- data-type="none" data-sortable="false" -->
-| ![](https://cours.relaxmaths.be/images/numeration/1000.svg) | ![](https://cours.relaxmaths.be/images/numeration/1000.svg) | ![](https://cours.relaxmaths.be/images/numeration/1000.svg) |
-| :------: | :------: | :------: |
+![](https://cours.relaxmaths.be/images/numeration/3000.svg)
 
 <!-- class="calcul" -->
 = [[1000]] + [[1000]] + [[1000]]
@@ -162,9 +159,7 @@ Pour commencer, voici une vidéo te permettant d'apprendre à lire et à écrire
 </exercice>
 
 <exercice>
-<!-- data-type="none" data-sortable="false" -->
-| ![](https://cours.relaxmaths.be/images/numeration/1000.svg) | ![](https://cours.relaxmaths.be/images/numeration/1000.svg) | ![](https://cours.relaxmaths.be/images/numeration/1000.svg) | ![](https://cours.relaxmaths.be/images/numeration/1000.svg) |
-| :------: | :------: | :------: | :------: |
+![](https://cours.relaxmaths.be/images/numeration/4000.svg)
 
 <!-- class="calcul" -->
 = [[1000]] + [[1000]] + [[1000]] + [[1000]]
@@ -174,9 +169,7 @@ Pour commencer, voici une vidéo te permettant d'apprendre à lire et à écrire
 </exercice>
 
 <exercice>
-<!-- data-type="none" data-sortable="false" -->
-| ![](https://cours.relaxmaths.be/images/numeration/1000.svg) | ![](https://cours.relaxmaths.be/images/numeration/1000.svg) | ![](https://cours.relaxmaths.be/images/numeration/1000.svg) | ![](https://cours.relaxmaths.be/images/numeration/1000.svg) | ![](https://cours.relaxmaths.be/images/numeration/1000.svg) | ![](https://cours.relaxmaths.be/images/numeration/1000.svg) |
-| :------: | :------: | :------: | :------: | :------: | :------: |
+![](https://cours.relaxmaths.be/images/numeration/6000.svg)
 
 <!-- class="calcul" -->
 = [[1000]] + [[1000]] + [[1000]] + [[1000]] + [[1000]] + [[1000]]
@@ -189,7 +182,7 @@ Pour commencer, voici une vidéo te permettant d'apprendre à lire et à écrire
 @rm_lire(`Complète suivant l'exemple donné.`)
 
 <exercice>
-@rm_nombre(2324)
+![](https://cours.relaxmaths.be/images/numeration/2324.svg)
 
 <!-- class="calcul"  -->
 = <dr>2000</dr> + <db>300</db> + <dv>20</dv> + <dj>4</dj>
@@ -199,7 +192,7 @@ Pour commencer, voici une vidéo te permettant d'apprendre à lire et à écrire
 </exercice>
 
 <exercice>
-@rm_nombre(5121)
+![](https://cours.relaxmaths.be/images/numeration/5121.svg)
 
 <!-- class="calcul"  -->
 = [[5000]] + [[100]] + [[20]] + [[1]]
@@ -209,7 +202,7 @@ Pour commencer, voici une vidéo te permettant d'apprendre à lire et à écrire
 </exercice>
 
 <exercice>
-@rm_nombre(1112)
+![](https://cours.relaxmaths.be/images/numeration/1112.svg)
 
 <!-- class="calcul"  -->
 = [[1000]] + [[100]] + [[10]] + [[2]]
@@ -219,7 +212,7 @@ Pour commencer, voici une vidéo te permettant d'apprendre à lire et à écrire
 </exercice>
 
 <exercice>
-@rm_nombre(3414)
+![](https://cours.relaxmaths.be/images/numeration/3414.svg)
 
 <!-- class="calcul"  -->
 = [[3000]] + [[400]] + [[10]] + [[4]]
@@ -229,7 +222,7 @@ Pour commencer, voici une vidéo te permettant d'apprendre à lire et à écrire
 </exercice>
 
 <exercice>
-@rm_nombre(1521)
+![](https://cours.relaxmaths.be/images/numeration/1521.svg)
 
 <!-- class="calcul"  -->
 = [[1000]] + [[500]] + [[20]] + [[1]]
@@ -239,8 +232,7 @@ Pour commencer, voici une vidéo te permettant d'apprendre à lire et à écrire
 </exercice>
 
 <exercice>
-
-@rm_nombre(4163)
+![](https://cours.relaxmaths.be/images/numeration/4163.svg)
 
 <!-- class="calcul"  -->
 = [[4000]] + [[100]] + [[60]] + [[3]]
@@ -277,13 +269,14 @@ Déplace les bons nombres aux bons endroits, puis clique sur "Valider" en-bas de
 @rm_lire(`Effectue les additions suivantes en te référant à l'exemple.<br/> Tu obtiendras <u>un nombre à 4 chiffres</u> dans lequel tu placeras TOUJOURS le chiffre des milles en premier, PUIS celui des centaines, PUIS celui des dizaines, et enfin celui des unités`)
 
 <exercice>
-<!-- class="calcul centrer"  -->
-<dr>9000</dr> + <db>500</db> + <dv>40</dv> + <dj>7</dj> = <dr>9</dr><db>5</db><dv>4</dv><dj>7</dj>
-
 <!-- data-type="none" data-sortable="false" -->
 |<dr>M</dr>|<db>C</db>|<dv>D</dv>|<dj>U</dj>|
 | :------: | :------: | :------: | :------: |
 |<dr>9</dr>|<db>5</db>|<dv>4</dv>|<dj>7</dj>|
+
+<!-- class="calcul centrer"  -->
+<dr>9000</dr> + <db>500</db> + <dv>40</dv> + <dj>7</dj> = <dr>9</dr><db>5</db><dv>4</dv><dj>7</dj>
+
 </exercice>
 
 <exercice>
@@ -326,33 +319,57 @@ Déplace les bons nombres aux bons endroits, puis clique sur "Valider" en-bas de
 @rm_lire(`Effectue les additions suivantes en te référant à l'exemple.<br/> Tu obtiendras <u>un nombre à 4 chiffres</u> dans lequel tu placeras TOUJOURS le chiffre des mille en premier, PUIS celui des centaines, PUIS celui des dizaines, et enfin, celui des unités.`)
 
 <exercice>
-<!-- class="calcul centrer"  -->
-<dr>3000</dr> + <db>500</db> + <dj>9</dj> + <dv>60</dv> = <dr>3000</dr> + <db>500</dr> + <dv>60</dv> + <dj>9</dj> =  <dr>3</dr><db>5</db><dv>6</dv><dj>9</dj>
-
-
 <!-- data-type="none" data-sortable="false" -->
 | <dr>M</dr> | <db>C</db> | <dv>D</dv> | <dj>U</dj> |
 | :--------: | :--------: | :--------: | :--------: |
-| <dr>3</dr> | <db>5</db> | <dv>6</dv> | <dj>9</dj> | 
+| <dr>3</dr> | <db>5</db> | <dv>6</dv> | <dj>9</dj> |
+
+<!-- class="calcul centrer"  -->
+<dr>3000</dr> + <db>500</db> + <dj>9</dj> + <dv>60</dv> = <dr>3000</dr> + <db>500</db> + <dv>60</dv> + <dj>9</dj> =  <dr>3</dr><db>5</db><dv>6</dv><dj>9</dj>
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-200 + 3000 + 70 + 5 = [[3275]]
+200 + 3000 + 70 + 5 
+
+<!-- class="calcul"  -->
+= [[3000]] + [[200]] + [[70]] + [[5]]
+
+<!-- class="calcul"  -->
+= [[3275]]
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-40 + 4000 + 9 + 300 = [[4349]]
-</exercice>
-<exercice>
+40 + 4000 + 9 + 300
+
 <!-- class="calcul"  -->
-900 + 4000 + 60 + 7 = [[4967]]
+= [[4000]] + [[300]] + [[40]] + [[9]]
+
+<!-- class="calcul"  -->
+= [[4349]]
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-80 + 2000 + 300 + 5 = [[2385]]
+900 + 4000 + 60 + 7
+
+<!-- class="calcul"  -->
+= [[4000]] + [[900]] + [[60]] + [[7]]
+
+<!-- class="calcul"  -->
+= [[4967]]
+</exercice>
+
+<exercice>
+<!-- class="calcul"  -->
+80 + 2000 + 300 + 5
+
+<!-- class="calcul"  -->
+= [[2000]] + [[300]] + [[80]] + [[5]]
+
+<!-- class="calcul"  -->
+= [[2385]]
 </exercice>
 
 <exercice>
@@ -399,13 +416,13 @@ Déplace les bons nombres aux bons endroits, puis clique sur "Valider" en-bas de
 @rm_lire(`Effectue les additions suivantes en te référant à l'exemple.<br/> Tu obtiendras <u>un nombre à 4 chiffres</u> dans lequel tu placeras TOUJOURS le chiffre des mille en premier, PUIS celui des centaines, PUIS celui des dizaines, et enfin, celui des unités.`)
 
 <exercice>
-<!-- class="calcul centrer"  -->
-<dr>8000</dr> + <db>500</db> + <dv>50</dv> = <dr>8</dr><db>5</db><dv>5</dv><dj>0</dj>
-
 <!-- data-type="none" data-sortable="false" -->
 | <dr>M</dr> | <db>C</db> | <dv>D</dv> | <dj>U</dj> |
 | :--------: | :--------: | :--------: | :--------: |
-| <dr>8</dr> | <db>5</db> | <dv>5</dv> | <dj>0</dj> | 
+| <dr>8</dr> | <db>5</db> | <dv>5</dv> | <dj>0</dj> |
+
+<!-- class="calcul centrer"  -->
+<dr>8000</dr> + <db>500</db> + <dv>50</dv> = <dr>8</dr><db>5</db><dv>5</dv><dj>0</dj>
 </exercice>
 
 <exercice>
@@ -458,13 +475,13 @@ Déplace les bons nombres aux bons endroits, puis clique sur "Valider" en-bas de
 @rm_lire(`Effectue les additions suivantes en te référant à l'exemple.<br/> Tu obtiendras <u>un nombre à 4 chiffres</u> dans lequel tu placeras TOUJOURS le chiffre des mille en premier, PUIS celui des centaines, PUIS celui des dizaines, et enfin, celui des unités.`)
 
 <exercice>
-<!-- class="calcul centrer"  -->
-<dr>7000</dr> + <db>800</db> + <dj>4</dj> = <dr>7</dr><db>8</db><dv>0</dv><dj>4</dj>
-
 <!-- data-type="none" data-sortable="false" -->
 | <dr>M</dr> | <db>C</db> | <dv>D</dv> | <dj>U</dj> |
 | :--------: | :--------: | :--------: | :--------: |
-| <dr>7</dr> | <db>4</db> | <dv>0</dv> | <dj>8</dj> | 
+| <dr>7</dr> | <db>4</db> | <dv>0</dv> | <dj>8</dj> |
+
+<!-- class="calcul centrer"  -->
+<dr>7000</dr> + <db>800</db> + <dj>4</dj> = <dr>7</dr><db>8</db><dv>0</dv><dj>4</dj>
 </exercice>
 
 <exercice>
@@ -517,13 +534,13 @@ Déplace les bons nombres aux bons endroits, puis clique sur "Valider" en-bas de
 @rm_lire(`Effectue les additions suivantes en te référant à l'exemple.<br/> Tu obtiendras <u>un nombre à 4 chiffres</u> dans lequel tu placeras TOUJOURS le chiffre des mille en premier, PUIS celui des centaines, PUIS celui des dizaines, et enfin, celui des unités.`)
 
 <exercice>
-<!-- class="calcul centrer"  -->
-<dr>3000</dr> + <dv>80</dv> + <dj>4</dj> = <dr>3</dr><db>0</db><dv>8</dv><dj>4</dj>
-
 <!-- data-type="none" data-sortable="false" -->
 | <dr>M</dr> | <db>C</db> | <dv>D</dv> | <dj>U</dj> |
 | :--------: | :--------: | :--------: | :--------: |
-| <dr>3</dr> | <db>0</db> | <dv>8</dv> | <dj>4</dj> | 
+| <dr>3</dr> | <db>0</db> | <dv>8</dv> | <dj>4</dj> |
+
+<!-- class="calcul centrer"  -->
+<dr>3000</dr> + <dv>80</dv> + <dj>4</dj> = <dr>3</dr><db>0</db><dv>8</dv><dj>4</dj>
 </exercice>
 
 <exercice>
@@ -598,47 +615,47 @@ Déplace les bons nombres aux bons endroits, puis clique sur "Valider" en-bas de
 
 <exercice>
 <!-- class="calcul"  -->
-3805 = [[3000 + 800 + 5]]
+@rm_question_calcul(3805, '["3000+800+5"];["3000+800+0+5"]')
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-4623 = [[4000 + 600 + 20 + 3]]
+@rm_question_calcul(4623, '["4000+600+20+3"]')
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-5178 = [[5000 + 100 + 70 + 8]]
+@rm_question_calcul(5178, '["5000+100+70+8"]')
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-3290 = [[3000 + 200 + 90]]
+@rm_question_calcul(3290, '["3000+200+90"];["3000+200+90+0"]')
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-1845 = [[1000 + 800 + 40 + 5]]
+@rm_question_calcul(1845, '["1000+800+40+5"]')
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-4762 = [[4000 + 700 + 60 + 2]]
+@rm_question_calcul(4762, '["4000+700+60+2"]')
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-2934 = [[2000 + 900 + 30 + 4]]
+@rm_question_calcul(2934, '["2000+900+30+4"]')
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-2040 = [[2000 + 40]]
+@rm_question_calcul(2040, '["2000+40"];["2000+0+40"];["2000+40+0"];["2000+0+40+0"]')
 </exercice>
 
 <exercice>
 <!-- class="calcul"  -->
-3170 = [[3000 + 100 + 70]]
+@rm_question_calcul(3170, '["3000+100+70"];["3000+100+70+0"]')
 </exercice>
 
 
