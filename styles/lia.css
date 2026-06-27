@@ -1061,11 +1061,26 @@ hr {
   line-height: 1.4; /* Ajuste la hauteur de ligne pour un bon alignement */
 }
 
-.lia-list--ordered li::marker {
-  display: inline-block;
-  width: 1.5em;
-  text-align: right;
-  margin-right: 0.5em;
+.lia-list--ordered {
+  counter-reset: item;
+  list-style: none;
+  padding-left: 0;
+}
+
+.lia-list--ordered li {
+  position: relative;
+  padding-left: 2em;
+  margin-bottom: 0.7em;
+}
+
+.lia-list--ordered li::before {
+  content: counter(item) ".";
+  counter-increment: item;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: 700;
+  color: #2a3a5a;
 }
 
 .lia-list--unordered li::before {
